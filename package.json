@@ -2,11 +2,10 @@
   "name": "reactpro",
   "private": true,
   "version": "0.0.0",
-  "base": "/my-first-react-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/my-first-react-app/",
     "preview": "vite preview"
   },
   "dependencies": {
