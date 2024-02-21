@@ -7,5 +7,8 @@ export default defineConfig({
   base: "/my-first-react-app/",
   server: {
     port: 3000,
+    watch: {
+      usePolling: true,
+    },
   }
 })
